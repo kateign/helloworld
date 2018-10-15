@@ -62,7 +62,7 @@ public class LinkedList {
 	 * @param pos - the position
 	 * @return the Node at the specified position
 	 */
-	private Node get(int pos) {
+	private Node get(int pos) {//adresa na node-to
 		if (pos < 0 || pos > size - 1)
 			throw new ArrayIndexOutOfBoundsException(pos);
 
@@ -73,5 +73,6 @@ public class LinkedList {
 			ourEl = ourEl.getNext();
 		}
 		return ourEl;
-	//kjhgjyfjf}
-}
+		//end
+	}
+	}
