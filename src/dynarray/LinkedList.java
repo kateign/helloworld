@@ -73,5 +73,5 @@ public class LinkedList {
 			ourEl = ourEl.getNext();
 		}
 		return ourEl;
-	}
+	//kjhgjyfjf}
 }
